@@ -1,5 +1,13 @@
 @import "~bootstrap/scss/bootstrap.scss";
 
+.navbar {
+    padding: 0.5em 15em 0.5em 15em;
+}
+
+.jumbotron {
+    margin-bottom: 15px;
+}
+
 .card {
     width: 16rem; //can also be 256px
 }

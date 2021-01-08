@@ -6,9 +6,7 @@ import rigoImage from "../../img/rigo-baby.jpg"; */
 //create your first component
 export function Navbar() {
 	return (
-		<nav
-			className="navbar navbar-expand-lg navbar-dark bg-dark text-white justify-content-between"
-			style={{ padding: "0.5em 15em 0.5em 15em" }}>
+		<nav className="navbar navbar-expand-lg navbar-dark bg-dark text-white justify-content-between">
 			<a className="navbar-brand" href="#">
 				Start Bootstrap
 			</a>
