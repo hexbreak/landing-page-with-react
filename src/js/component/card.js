@@ -11,15 +11,12 @@ export function Card(props) {
 					alt="text image holder"
 				/>
 				<div className="card-body text-center">
-					<h5 className="card-title">Card Title</h5>
-					<p className="card-text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Sapiente esse necessitatibus neque.
-					</p>
+					<h5 className="card-title">{props.title}</h5>
+					<p className="card-text">{props.onetext}</p>
 				</div>
 				<div className="card-footer d-flex justify-content-center">
 					<a href="#" className="btn btn-primary">
-						Find out more!
+						{props.footer}
 					</a>
 				</div>
 			</div>
@@ -30,16 +27,12 @@ export function Card(props) {
 					alt="text image holder"
 				/>
 				<div className="card-body text-center">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						Lorem ipsum dolor sit amet, consectetur adipisicing
-						elit. Explicabo magni sapiente, tempore debitis beatae
-						culpa natus architecto.
-					</p>
+					<h5 className="card-title">{props.title}</h5>
+					<p className="card-text">{props.twotext}</p>
 				</div>
 				<div className="card-footer d-flex justify-content-center">
 					<a href="#" className="btn btn-primary">
-						Find out more!
+						{props.footer}
 					</a>
 				</div>
 			</div>
@@ -50,11 +43,8 @@ export function Card(props) {
 					alt="text image holder"
 				/>
 				<div className="card-body text-center">
-					<h5 className="card-title">Card title</h5>
-					<p className="card-text">
-						Lorem ipsum dolor sit amet consectetur adipisicing elit.
-						Sapiente esse necessitatibus neque.
-					</p>
+					<h5 className="card-title">{props.title}</h5>
+					<p className="card-text">{props.onetext}</p>
 				</div>
 				<div className="card-footer d-flex justify-content-center">
 					<a href="#" className="btn btn-primary">
@@ -70,7 +60,7 @@ export function Card(props) {
 				/>
 				<div className="card-body text-center">
 					<h5 className="card-title">{props.title}</h5>
-					<p className="card-text">{props.text}</p>
+					<p className="card-text">{props.twotext}</p>
 				</div>
 				<div className="card-footer d-flex justify-content-center">
 					<a href="#" className="btn btn-primary">
@@ -84,6 +74,7 @@ export function Card(props) {
 
 Card.propTypes = {
 	title: PropTypes.string,
-	text: PropTypes.string,
+	onetext: PropTypes.string,
+	twotext: PropTypes.string,
 	footer: PropTypes.string
 };

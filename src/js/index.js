@@ -21,10 +21,11 @@ ReactDOM.render(
 		<div className="container">
 			<Jumbotron />
 			<Card
-				title="Card Tteateateaitle"
-				text="Lorem ipsum dolor sit amet, consectetur adipisicing
+				title="This is a Card Test!"
+				onetext="Lorem ipsum dolor sit amet consectetur adipisicing elit. Sapiente esse necessitatibus neque."
+				twotext="Lorem ipsum dolor sit amet, consectetur adipisicing
 						elit. Explicabo magni sapiente, tempore debitis beatae
-						culpa natus architecto."
+                        culpa natus architecto."
 				footer="Find out more!"
 			/>
 		</div>
